@@ -1,13 +1,12 @@
 {
-  "name": "discord-invite-bot",
+  "name": "invite-role-bot",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "start": "node index.js"
+  "engines": {
+    "node": ">=18.0.0"
   },
   "dependencies": {
-    "discord.js": "^14.11.0",
+    "discord.js": "^14.21.0",
     "dotenv": "^16.0.0",
     "express": "^4.18.2"
   }
